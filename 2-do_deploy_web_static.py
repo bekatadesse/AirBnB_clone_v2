@@ -9,7 +9,8 @@ from datetime import datetime
 from os.path import exists
 
 env.hosts = ['100.26.177.87', '34.207.222.225']
-
+env.user = "ubuntu"
+env.key_filename = "/root/.ssh/school"
 
 def do_pack():
     """generates a .tgz archive from the contents of the web_static folder
