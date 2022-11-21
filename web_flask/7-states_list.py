@@ -2,8 +2,8 @@
 """Starts a web application
 Flask application listens port :5000
 """
-from models import storage
 from flask import Flask
+from models import storage
 from flask import render_template
 
 app = Flask(__name__)
