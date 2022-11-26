@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Starts a web application
+"""
 Flask application listens port :5000
 """
 from flask import Flask
